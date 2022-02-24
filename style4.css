@@ -1,0 +1,354 @@
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*Header*/
+
+header{
+    padding: 30px 82px 31px 82px;
+}
+
+body{
+    font-family: Poppins;
+}
+
+header .menu ul .menu-item a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #94959A;
+    transition: 0.5s;
+}
+
+hr{
+    width: 41px;
+    background-color: #3865F4;
+    border: none;
+    height: 2px;
+    border-radius: 6px;
+    margin: auto;
+}
+
+header .menu .menu-item1 a{
+    color: #3865F4;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+}
+
+header .menu .menu-item1{
+    margin-right: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+header .menu ul .menu-item a:hover{
+    color: #000;
+
+}
+
+header .menu ul .menu-item-fourth a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #3865F4;
+    transition: 0.8s;
+}
+
+header .menu ul .menu-item-fourth a:hover{
+    color: #000;
+}
+
+header .menu ul .menu-item-last a{
+    padding: 12px 43px 12px 43px;
+    background-color: #3865F4;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    transition: 0.8s;
+}
+
+header .menu ul .menu-item-last a:hover{
+    background-color: #000;
+}
+
+header .menu ul{
+    list-style-type: none;
+}
+
+header .logo{
+    float: left;
+}
+
+header .menu{
+    float: right;
+}
+
+header .menu ul li{
+    float: left;
+}
+
+header .menu ul .menu-item{
+    margin-right: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+header .menu ul .menu-item-fourth{
+    margin-left: 10px;
+    margin-right: 46px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+header .menu ul .menu-item-last{
+    margin-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 1px;
+}
+
+/*section1*/
+
+.section1{
+    margin-top: 93px;
+    margin-left: 2px;
+}
+
+.section1 img{
+    float: left;
+}
+
+.section1 .content{
+    margin-top: calc(101px - 93px);
+    margin-left: calc(850px - 80px);
+}
+
+.section1 .content h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #120D26;
+}
+
+.section1 .content p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #94959A;
+}
+
+.section1 .content .input .email p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    margin: 49px 0 16px 0;
+}
+
+.section1 .content .input .email input{
+    width: 400px;
+    height: 68px;
+    padding-left: 18px;
+    box-sizing: border-box;
+    border: 2px solid #F2F2F2;
+    border-radius: 8px;
+}
+
+.section1 .content .input .email input[placeholder]{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.section1 .content .input .text p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    margin: 32px 0 16px 0;
+}
+
+.section1 .content .input .text textarea{
+    width: 400px;
+    height: 238px;
+    padding: 24px 0 0 18px;
+    box-sizing: border-box;
+    border: 2px solid #F2F2F2;
+    border-radius: 8px;
+}
+
+.section1 .content .input .text textarea[placeholder]{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.section1 .content .input .text input{
+    display: block;
+    background-color: #3865F4;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    padding: 12px 33px;
+    border-radius: 6px;
+    margin: 28px 0 96px calc(398px - 146px);
+}
+
+
+
+/*section2*/
+
+.container-seven .company{
+    margin-top: 69px;
+    float: left;
+}
+
+.container-seven .company .company1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #120D26;
+    margin-bottom: 37px;
+}
+
+.container-seven .company .companylist{
+    list-style-type: none;
+}
+
+.container-seven .company .companylist li{
+    margin-bottom: 18px;
+}
+
+.container-seven .company .companylist a{ 
+    text-decoration: none;
+    color: #94959A;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 00.01em;
+    transition: 0.8s;
+}
+
+.container-seven .company .companylist a:hover{
+    color: #000;
+}
+
+.container-seven .companyco{
+    margin-left: 207px;
+}
+
+.container-seven .dropdown{
+    margin-top: 69px;
+    margin-bottom: 274px;
+    float: right;
+}
+
+.container-seven .dropdown .global1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    border-radius: 6px;
+    color: #29253C;
+    border: 1.5px solid #F2F2F2;
+    background-color: #ffffff;
+    padding: 14px 77px 14px 14px;
+}
+
+.container-seven .global1 img{
+    vertical-align: middle;
+    margin-left: 77px;
+}
+
+.container-seven .border{
+    border-top: 2px solid #D0CFD4;
+}
+
+.container-seven .border .end{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #94959A;
+    margin-top: 40px;
+    margin-bottom: 82px;
+    float: left;
+}
+
+.container-seven .border .endimg img{
+    margin-top: 41px;
+}
+
+.container-seven .border .endimg .endimg1{
+    float: right;
+}
+
+.container-seven .border .endimg .endimg1:hover{
+    transform: scale(2, 2);
+}
+
+.container-seven .border .endimg .endimg2{
+    margin-right: 26px;
+    float: right;
+}
+
+.container-seven .border .endimg .endimg2:hover{
+    transform: scale(2, 2);
+}
+
+.container-seven .border .endimg .endimg3{
+    margin-right: 26px;
+    float: right;
+}
+
+.container-seven .border .endimg .endimg3:hover{
+    transform: scale(2, 2);
+}
+
+.container-seven .border .endimg .endimg4{
+    margin-right: 26px;
+    float: right;
+}
+
+.container-seven .border .endimg .endimg4:hover{
+    transform: scale(2, 2);
+}
+
+
+
+
